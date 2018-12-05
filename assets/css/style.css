@@ -6,6 +6,31 @@
 
 /* Navbar */
 
+.navbar_bshop {
+    background-color: #121619;
+    height: 60px;
+}
+.icon-bar {
+    background-color: #FFFFFF;
+}
+.navbar-right {
+    margin-right: 100px;
+}
+.navbar-brand img {
+    max-width: 110px;
+    margin-left: 200px;
+}
+.navbar-nav>li>a {
+    color: #FFFFFF;
+    text-shadow: none;
+}
+.nav>li>a:hover {
+    background-color: initial;
+    color: hsla(0, 0%, 100%, .5);
+}
+.navbar {
+    margin-bottom: 0;
+}
 /* Header */
 
 /*Section Entrada*/
@@ -15,3 +40,13 @@
 /*Section Flechas*/
 
 /*Section Footer*/
+
+.footer__bshop {
+    background-color: #121619;
+    text-align: center;
+    height: 60px;
+}
+.footer__bshop>img {
+    width: 120px;
+    padding-top: 10px;
+}
