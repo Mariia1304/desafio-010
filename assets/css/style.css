@@ -2,6 +2,7 @@
 
 /* Font hierarchy */
 
+}
 /* Button */
 
 /* Navbar */
@@ -31,8 +32,56 @@
 .navbar {
     margin-bottom: 0;
 }
+@media only screen and (max-width: 865px) {
+    .navbar-right {
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 401px) {
+    .navbar-brand img {
+        max-width: 110px;
+        margin-left: 0px;
+    }
+}
 /* Header */
 
+.header__bshop {
+    background-image: url("../img/post-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+}
+.header__bshop h1 {
+    color: #FFFFFF;
+    margin-top: 300px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    padding: 0 28vw;
+    line-height: 75px;
+    font-size: 4em;
+}
+.header__bshop img {
+    width: 70px;
+    margin-top: 70px;
+}
+@media only screen and (max-width: 767px) {
+    .header__bshop {
+        height: 450px;
+        background-position: center;
+    }
+    .header__bshop h1 {
+        color: #FFFFFF;
+        margin-top: 190px;
+        font-size: 2.4em;
+        padding: 2rem;
+        line-height: 50px;
+    }
+    .header__bshop img {
+        margin-top: 5px;
+        width: 60px;
+    }
+}
 /*Section Entrada*/
 
 /*Section Perfil*/
