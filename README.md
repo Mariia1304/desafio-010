@@ -1,3 +1,8 @@
+#Proyecto Barbershop
+link en gh-pages aqui:
+[Desafio010](https://mariia1304.github.io/desafio-010/index.html)
+
+
 La página deberá contener:
 
  - Una barra de navegación
