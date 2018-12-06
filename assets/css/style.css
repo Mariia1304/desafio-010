@@ -167,8 +167,8 @@
 /*Section Perfil*/
 
 .perfil {
-    border-top: solid 1px #c8c8c8;
-    border-bottom: solid 2px #c8c8c8;
+    border-top: solid 2px #eeeeee;
+    border-bottom: solid 2px #eeeeee;
     padding-bottom: 30px;
 }
 .perfil .row {
@@ -176,7 +176,7 @@
 }
 .perfil__icon-user {
     text-align: center;
-    border: solid 1px #c8c8c8;
+    border: solid 2px #eeeeee;
     border-radius: 50%;
     padding: 6px;
     height: 40px;
@@ -189,7 +189,7 @@
     font-size: 25px;
 }
 .perfil__naomi img {
-    border: solid 2px #c8c8c8;
+    border: solid 2px #eeeeee;
     border-radius: 50%;
     width: 50%;
     float: left;
@@ -197,6 +197,10 @@
 .perfil__naomi--links {
     margin-left: 160px;
     margin-top: 40px;
+}
+.perfil__naomi--links a {
+    text-decoration: none;
+    color: #707070;
 }
 .perfil__naomi--links p {
     font-family: 'Playfair Display', serif;
@@ -230,6 +234,92 @@
 }
 /*Section Flechas*/
 
+.flechas {
+    background-color: #eeeeee;
+    padding: 40px 20px;
+}
+.flechas__left {
+    margin-left: 200px;
+    float: left;
+    border-radius: 50%;
+    border: solid 2px #707070;
+    padding: 0px 10px;
+    color: white;
+    background-color: #707070;
+}
+.flechas__left a, .flechas__right a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.flechas__right {
+    margin-right: 200px;
+    float: right;
+    border-radius: 50%;
+    border: solid 2px #707070;
+    padding: 0px 10px;
+    color: white;
+    background-color: #707070;
+}
+.fa-caret-left {
+    font-size: 30px;
+}
+.fa-caret-right {
+    font-size: 30px;
+}
+.flechas__left--text {
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px
+}
+.flechas__right--text {
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px
+}
+@media only screen and (max-width: 767px) {
+    .flechas {
+        background-color: #eeeeee;
+        padding: 40px 20px;
+    }
+    .flechas__left {
+        margin-left: 0;
+        float: left;
+        border-radius: 50%;
+        border: solid 2px #707070;
+        padding: 0px 10px;
+        color: white;
+        background-color: #707070;
+    }
+    .flechas__right {
+        margin-right: 0;
+        float: right;
+        border-radius: 50%;
+        border: solid 2px #707070;
+        padding: 0px 10px;
+        color: white;
+        background-color: #707070;
+    }
+    .fa-caret-left {
+        font-size: 30px;
+    }
+    .fa-caret-right {
+        font-size: 30px;
+    }
+    .flechas__right--text {
+        display: none;
+    }
+    .flechas__left--text {
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .flechas__right--text {
+        display: none;
+    }
+    .flechas__left--text {
+        display: none;
+    }
+}
 /*Section Footer*/
 
 .footer__bshop {
