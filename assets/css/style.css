@@ -106,6 +106,9 @@
     margin-bottom: 50px;
     margin-top: 20px;
 }
+.entrada__icons a {
+    color: transparent;
+}
 .entrada__icon {
     background-color: #707070;
     display: inline-block;
