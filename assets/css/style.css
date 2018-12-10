@@ -24,12 +24,12 @@
     color: #FFFFFF;
     text-shadow: none;
 }
-.nav>li>a:hover {
-    background-color: none;
-    color: black;
-}
 .navbar {
     margin-bottom: 0;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+    color: #D56C6A;
 }
 @media only screen and (max-width: 865px) {
     .navbar-right {
